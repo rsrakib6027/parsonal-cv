@@ -1,0 +1,140 @@
+     
+     *{
+        box-sizing: border-box;
+     }
+     /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+      
+.nav-logo{
+  text-align: left;
+
+}
+.nav-heading h1{
+  text-align: right;
+}  
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+
+}
+
+/* profile sters form here */
+
+
+
+
+.top-weather-icon{
+  width: 120px;
+  right: 140px;
+  top: 20px;
+  transition: width 2s, transform 2s;
+}
+.top-weather-icon:hover{
+  transform: rotate(360deg);
+width: 100px;
+}
+
+.profile-desc p{
+  color: red;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.bottom-weather-icon{
+  width: 120px;
+  left: 140px;
+  bottom: 20px;
+  transition: width 2s transform 2s;
+}
+.bottom-weather-icon:hover{
+  transform: rotate(360deg);
+  width: 100px;
+}
+
+
+
+/* about me design starts here */
+
+.aboutme-image{
+  margin-top: 100px;
+}
+
+.aboutme-image img{
+  width: 250px;
+  height: 270px;
+}
+.aboutme-desc p{
+  text-align: left;
+}
+
+
+/* about me design ands here */
+
+
+/* professional experience ends here */
+
+.professional-experince {
+  padding: 1% 2%;
+}
+
+/* professional experience ends here */
+
+/* acheivement-contact starts here */
+
+.achievemnet{
+  padding-right: 50px;
+}
+
+.contact button {
+  width: 120px;
+}
+
+.contact-links h2{
+ text-align: center;
+}
+
+.contact-links{
+  position: relative;
+
+}
+
+.media-buttons{
+  position: absolute;
+  margin-top: 120px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%-50%);
+  
+}
+
+
+/* acheivement-contact ends here */
+
+
+
+.footer-menu{
+  margin-top: 12px;
+
+}
+.footer-menu a {
+  display: inline;
+  margin: 10px;
+}
